@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bitácora - GitHub, HTML y CSS | Gael y Fanny</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f4f6f9; margin: 0; color: #222; }
+  header { background: #0d1117; color: white; padding: 40px 20px; text-align: center; }
+  header h1 { margin: 0; }
+  .contenedor { max-width: 900px; margin: -30px auto 0; background: white; padding: 30px; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); }
+  .entrada { border-left: 5px solid #238636; padding: 15px 20px; margin: 25px 0; background: #f9f9f9; border-radius: 8px; text-align: left; }
+  .entrada h3 { margin-top: 0; color: #0d1117; }
+  .fecha { color: #888; font-size: 0.9em; }
+  code { background: #eee; padding: 2px 6px; border-radius: 4px; }
+  footer { text-align: center; padding: 20px; color: #999; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Bitácora de Aprendizaje</h1>
+  <p>GitHub + HTML + CSS | Proyecto de Gael y Fanny</p>
+</header>
+
+<div class="contenedor">
+  <h2>Objetivo</h2>
+  <p>Documentar el proceso de creación de una página web usando HTML, CSS y el control de versiones con GitHub Pages.</p>
+
+  <div class="entrada">
+    <span class="fecha">Día 1 - Introducción a GitHub</span>
+    <h3>¿Qué es GitHub?</h3>
+    <p>GitHub es una plataforma para guardar código, llevar control de versiones con Git y colaborar. Permite alojar páginas web gratis con GitHub Pages. Creamos cuenta, configuramos Git y creamos nuestro primer repositorio <code>bitacora-gf</code>.</p>
+  </div>
+
+  <div class="entrada">
+    <span class="fecha">Día 2 - HTML</span>
+    <h3>Estructura con HTML</h3>
+    <p>HTML (HyperText Markup Language) es el esqueleto de la web. Usamos etiquetas como <code>&lt;header&gt;</code>, <code>&lt;div&gt;</code>, <code>&lt;h1&gt;</code> y <code>&lt;p&gt;</code> para organizar la información de la bitácora.</p>
+  </div>
+
+  <div class="entrada">
+    <span class="fecha">Día 3 - CSS</span>
+    <h3>Estilos con CSS</h3>
+    <p>CSS (Cascading Style Sheets) es lo que da color, forma y diseño. Aplicamos colores, bordes redondeados, sombras y un diseño responsive para que se vea bien en celular.</p>
+  </div>
+
+  <div class="entrada">
+    <span class="fecha">Día 4 - Subir la Bitácora a GitHub</span>
+    <h3>Proceso para subir</h3>
+    <p>1. Hacer <code>git add .</code> <br>2. Hacer <code>git commit -m "Subo mi bitácora"</code> <br>3. Hacer <code>git push origin main</code> <br>4. Activar GitHub Pages en Settings > Pages > Branch: main</p>
+    <p>La página queda publicada en: <b>https://usuario.github.io/bitacora-gf/</b></p>
+  </div>
+
+  <div class="entrada">
+    <span class="fecha">Día 5 - Conclusión</span>
+    <h3>Aprendizaje</h3>
+    <p>Aprendimos que GitHub no solo es para guardar código, sino para publicar proyectos reales. HTML pone el contenido y CSS lo hace visualmente atractivo. La combinación permite crear desde una bitácora hasta una página profesional.</p>
+  </div>
+</div>
+
+<footer>Bitácora hecha por Gael y Fanny - 2026</footer>
+</body>
+</html>
